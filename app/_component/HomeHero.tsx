@@ -8,7 +8,7 @@ const HomeHero: React.FC = () => {
         <p className="text-lg text-gray-600 mb-8">Web Developer | MERN</p>
         <p className="text-gray-800 leading-relaxed">
           Welcome to my portfolio! I specialize in creating dynamic and responsive web applications.
-          Let's build something amazing together.
+          Let&#39;s build something amazing together.
         </p>
       </div>
     </section>
