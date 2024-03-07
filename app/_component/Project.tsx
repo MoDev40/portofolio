@@ -40,7 +40,7 @@ const Project : React.FC<Props> = ({project}) => {
           rel="noopener noreferrer"
           className="text-blue-500 hover:underline"
         >
-          Source Code
+          Source
         </Link>
       </div>
     </div>
