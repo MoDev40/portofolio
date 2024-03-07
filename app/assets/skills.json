@@ -1,0 +1,37 @@
+[
+    {
+    "id": 1,
+    "name": "Ts",
+    "image":"/images/Ts.JPG"
+    },
+    {
+    "id": 2,
+    "name": "Js",
+    "image":"/images/Js.JPG"
+    },
+    {
+    "id": 3,
+    "name": "React",
+    "image":"/images/React.JPG"
+    },
+    {
+    "id": 4,
+    "name": "Mongodb",
+    "image":"/images/Mongodb.JPG"
+    },
+    {
+    "id": 5,
+    "name": "Next",
+    "image":"/images/Next.JPG"
+    },
+    {
+    "id": 6,
+    "name": "Node JS",
+    "image":"/images/Node.jpg"
+    },
+    {
+    "id": 7,
+    "name": "Prisma",
+    "image":"/images/prisma.JPG"
+    }
+]
