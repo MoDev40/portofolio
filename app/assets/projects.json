@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name": "Book Store",
+        "image": "/images/projects/BookStore.PNG",
+        "description": "React & React-Redux",
+        "demoLink": "https://crud-book-pied.vercel.app/",
+        "sourceCodeLink":"https://github.com/MoDev40/Crud_Book"
+    },
+    {
+        "id":2,
+        "name": "Inventory",
+        "image": "/images/projects/Inventory.png",
+        "description": "React + Js &  Redux-toolkit Node-js Express Prisma & PostgreSQL db provider Neon",
+        "demoLink": "https://inventory-mu-topaz.vercel.app/",
+        "sourceCodeLink":"https://github.com/MoDev40/frontend-deploy"
+    },
+    {
+        "id":3,
+        "name": "Budget",
+        "image": "/images/projects/Budget.png",
+        "description": "React + Ts & React-Redux Redux-toolkit Node-js Express Prisma & PostgreSQL db provider supabase",
+        "demoLink": "https://budget-management-seven.vercel.app/",
+        "sourceCodeLink":"https://github.com/MoDev40/budget-management"
+    },
+    {
+        "id":4,
+        "name": "Todo",
+        "image": "/images/projects/Todo.png",
+        "description": "Next-Js app route + Ts Prisma and PostgreSQL db provider supabase",
+        "demoLink": "https://full-stack-next-js-todo-prisma.vercel.app/",
+        "sourceCodeLink":"https://github.com/MoDev40/full-stack-next-js-todo-prisma"
+    },
+    {
+        "id":5,
+        "name": "Quizera",
+        "image": "/images/projects/Quizera.png",
+        "description": "Next-Js app route + Ts Mongoose and Mongodb",
+        "demoLink": "https://quizera-two.vercel.app/",
+        "sourceCodeLink":"https://github.com/MoDev40/quizera"
+    },
+    {
+        "id":6,
+        "name": "Gallery",
+        "image": "/images/projects/Gallery.png",
+        "description": "Next-Js app route + Ts Prisma and PostgreSQL db provider supabase",
+        "demoLink": "https://gallery-nextjs-azure.vercel.app/",
+        "sourceCodeLink":"https://github.com/MoDev40/Gallery-nextjs"
+    }
+]
