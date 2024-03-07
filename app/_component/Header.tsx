@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 const Header = () => {
   return (
-  <header className="bg-gray-500 p-4 text-white">
+  <header className="container mx-auto p-4 text-black">
     <div className="flex items-center justify-between">
       <div className="flex items-center space-x-4">
         {/* <img
