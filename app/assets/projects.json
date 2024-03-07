@@ -10,7 +10,7 @@
     {
         "id":2,
         "name": "Inventory",
-        "image": "/images/projects/Inventory.png",
+        "image": "/images/projects/Inventory.PNG",
         "description": "React + Js &  Redux-toolkit Node-js Express Prisma & PostgreSQL db provider Neon",
         "demoLink": "https://inventory-mu-topaz.vercel.app/",
         "sourceCodeLink":"https://github.com/MoDev40/frontend-deploy"
@@ -18,7 +18,7 @@
     {
         "id":3,
         "name": "Budget",
-        "image": "/images/projects/Budget.png",
+        "image": "/images/projects/Budget.PNG",
         "description": "React + Ts & Redux-toolkit Node-js Express Prisma & PostgreSQL db provider supabase",
         "demoLink": "https://budget-management-seven.vercel.app/",
         "sourceCodeLink":"https://github.com/MoDev40/budget-management"
@@ -26,7 +26,7 @@
     {
         "id":4,
         "name": "Todo",
-        "image": "/images/projects/Todo.png",
+        "image": "/images/projects/Todo.PNG",
         "description": "Next-Js app route + Ts Prisma and PostgreSQL db provider supabase",
         "demoLink": "https://full-stack-next-js-todo-prisma.vercel.app/",
         "sourceCodeLink":"https://github.com/MoDev40/full-stack-next-js-todo-prisma"
@@ -34,7 +34,7 @@
     {
         "id":5,
         "name": "Quizera",
-        "image": "/images/projects/Quizera.png",
+        "image": "/images/projects/Quizera.PNG",
         "description": "Next-Js app route + Ts Mongoose and Mongodb Api from opentdb.com",
         "demoLink": "https://quizera-two.vercel.app/",
         "sourceCodeLink":"https://github.com/MoDev40/quizera"
@@ -42,7 +42,7 @@
     {
         "id":6,
         "name": "Gallery",
-        "image": "/images/projects/Gallery.png",
+        "image": "/images/projects/Gallery.PNG",
         "description": "Next-Js app route + Ts Prisma and PostgreSQL db provider supabase",
         "demoLink": "https://gallery-nextjs-azure.vercel.app/",
         "sourceCodeLink":"https://github.com/MoDev40/Gallery-nextjs"

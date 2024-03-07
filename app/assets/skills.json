@@ -27,11 +27,11 @@
     {
     "id": 6,
     "name": "Node JS",
-    "image":"/images/Node.jpg"
+    "image":"/images/Node.JPG"
     },
     {
     "id": 7,
     "name": "Prisma",
-    "image":"/images/prisma.JPG"
+    "image":"/images/prisma.jpg"
     }
 ]
