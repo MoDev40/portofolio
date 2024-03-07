@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import projectsData from "@/app/assets/projects.json"
 import Project from './Project';

@@ -1,5 +1,5 @@
+'use client'
 import React from 'react';
-
 const HomeHero: React.FC = () => {
   return (
     <section className="w-full bg-gray-100  py-16 text-center">

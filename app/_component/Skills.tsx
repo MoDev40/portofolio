@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import skillsData from "@/app/assets/skills.json"
 import {shuffle} from "lodash"
