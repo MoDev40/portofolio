@@ -1,5 +1,6 @@
 import React from 'react';
 import skillsData from "@/app/assets/skills.json"
+import {shuffle} from "lodash"
 
 const Skills: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ const Skills: React.FC = () => {
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-center uppercase">Skills</h2>
         <div className="grid grid-cols-2 md:grid-cols-4  gap-8">
-          {skillsData.map((skill) => (
+          {shuffle(skillsData).map((skill) => (
             <div key={skill.id} className="text-center">
               <img
                 src={skill.image}
