@@ -19,7 +19,7 @@
         "id":3,
         "name": "Budget",
         "image": "/images/projects/Budget.png",
-        "description": "React + Ts & React-Redux Redux-toolkit Node-js Express Prisma & PostgreSQL db provider supabase",
+        "description": "React + Ts & Redux-toolkit Node-js Express Prisma & PostgreSQL db provider supabase",
         "demoLink": "https://budget-management-seven.vercel.app/",
         "sourceCodeLink":"https://github.com/MoDev40/budget-management"
     },
@@ -35,7 +35,7 @@
         "id":5,
         "name": "Quizera",
         "image": "/images/projects/Quizera.png",
-        "description": "Next-Js app route + Ts Mongoose and Mongodb",
+        "description": "Next-Js app route + Ts Mongoose and Mongodb Api from opentdb.com",
         "demoLink": "https://quizera-two.vercel.app/",
         "sourceCodeLink":"https://github.com/MoDev40/quizera"
     },

@@ -7,7 +7,7 @@ import Footer from './_component/Footer'
 
 const page = () => {
   return (
-    <div>
+    <div className='space-y-4'>
       <Header/>
       <HomeHero/>
       <Skills/>
