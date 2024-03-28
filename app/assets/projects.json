@@ -46,5 +46,13 @@
         "description": "Next-Js app route + Ts Prisma and PostgreSQL db provider supabase",
         "demoLink": "https://gallery-nextjs-azure.vercel.app/",
         "sourceCodeLink":"https://github.com/MoDev40/Gallery-nextjs"
+    },
+        {
+        "id":7,
+        "name": "Daily-Expenses",
+        "image": "",
+        "description": "Next-Js app route + Ts + Mongoose and Mongodb + Server-actions",
+        "demoLink": "https://daily-expenses-nine.vercel.app/",
+        "sourceCodeLink":"https://github.com/MoDev40/daily-expenses"
     }
 ]
