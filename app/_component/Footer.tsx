@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import React from 'react';
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
