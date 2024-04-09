@@ -49,10 +49,10 @@
     },
         {
         "id":7,
-        "name": "Daily-Expenses",
-        "image": "",
+        "name": "Expenses Tracker",
+        "image": "/images/projects/Expense.png",
         "description": "Next-Js app route + Ts + Mongoose and Mongodb + Server-actions",
-        "demoLink": "https://daily-expenses-nine.vercel.app/",
-        "sourceCodeLink":"https://github.com/MoDev40/daily-expenses"
+        "demoLink": "https://expense-tracker-gray-seven.vercel.app/",
+        "sourceCodeLink":"https://github.com/MoDev40/expense-tracker"
     }
 ]
