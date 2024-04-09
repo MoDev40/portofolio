@@ -15,7 +15,7 @@ const Header = () => {
         rel="noopener noreferrer"
         className="flex items-center space-x-2"
       >
-        <GithubIcon size={30}  className="text-2xl" />
+        <GithubIcon size={30}  className="text-2xl animate-bounce" />
       </Link>
     </div>
   </header>
