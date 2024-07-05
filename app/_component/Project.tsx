@@ -61,7 +61,10 @@ const Project: React.FC<Props> = ({ project }) => {
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline"
             >
-              Demo
+            {
+              project.demoLink &&
+              "Demo"
+            }
             </Link>
             <Link
               href={project.sourceCodeLink}
@@ -69,7 +72,10 @@ const Project: React.FC<Props> = ({ project }) => {
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline"
             >
-              Source
+            {
+              project.sourceCodeLink&&
+              "Source"
+            }
             </Link>
           </div>
         </div>
