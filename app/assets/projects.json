@@ -47,12 +47,44 @@
         "demoLink": "https://gallery-nextjs-azure.vercel.app/",
         "sourceCodeLink":"https://github.com/MoDev40/Gallery-nextjs"
     },
-        {
+    {
         "id":7,
         "name": "Expenses Tracker",
         "image": "/images/projects/Expense.png",
         "description": "Next-Js app route + Ts + Mongoose and Mongodb + Server-actions",
         "demoLink": "https://expense-tracker-gray-seven.vercel.app/",
         "sourceCodeLink":"https://github.com/MoDev40/expense-tracker"
+    },
+    {
+        "id":8,
+        "name": "ImageGen",
+        "image": "",
+        "description": "Next-Js app route + Ts + Mongoose and Mongodb + api-route",
+        "demoLink": "https://image-gen-five.vercel.app/",
+        "sourceCodeLink":"https://github.com/MoDev40/image-gen"
+    },
+    {
+        "id":9,
+        "name": "QuizMaster",
+        "image": "",
+        "description": "React",
+        "demoLink": "https://quizmaster-khaki.vercel.app/",
+        "sourceCodeLink":""
+    },
+    {
+        "id":10,
+        "name": "toPG",
+        "image": "",
+        "description": "Background removal using react-js node-js replit render",
+        "demoLink": "https://ai-bg-remover-tau.vercel.app/",
+        "sourceCodeLink":"https://github.com/MoDev40/ai-bg-remover"
+    },
+    {
+        "id":11,
+        "name": "Uploadthing file upload",
+        "image": "",
+        "description": "Next-Js app route + Ts + Prisma and Mongodb + api-route redux-toolkit",
+        "demoLink": "",
+        "sourceCodeLink":"https://github.com/MoDev40/uploadthing"
     }
 ]
