@@ -1,0 +1,176 @@
+import {
+  SiReact,
+  SiNodedotjs,
+  SiMongodb,
+  SiExpress,
+  SiTypescript,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiGit,
+  SiDocker,
+  SiPrisma,
+  SiPostgresql,
+  SiRedux,
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiGithub,
+  SiVercel,
+} from "react-icons/si";
+
+export interface Skill {
+  name: string;
+  icon: React.ReactNode;
+  color: string;
+  category: "frontend" | "backend" | "database" | "tools" | "cloud";
+  level: number;
+  description: string;
+}
+
+export const skills: Skill[] = [
+  {
+    name: "React",
+    icon: <SiReact />,
+    color: "#61DAFB",
+    category: "frontend",
+    level: 90,
+    description: "Building modern, responsive UIs with React and its ecosystem",
+  },
+  {
+    name: "Next.js",
+    icon: <SiNextdotjs />,
+    color: "#000000",
+    category: "frontend",
+    level: 85,
+    description: "Creating fast, SEO-friendly applications with Next.js",
+  },
+  {
+    name: "TypeScript",
+    icon: <SiTypescript />,
+    color: "#3178C6",
+    category: "frontend",
+    level: 85,
+    description: "Writing type-safe, maintainable code",
+  },
+  {
+    name: "JavaScript",
+    icon: <SiJavascript />,
+    color: "#F7DF1E",
+    category: "frontend",
+    level: 90,
+    description: "Core language expertise with modern ES6+ features",
+  },
+  {
+    name: "HTML5",
+    icon: <SiHtml5 />,
+    color: "#E34F26",
+    category: "frontend",
+    level: 95,
+    description: "Semantic markup and accessibility",
+  },
+  {
+    name: "CSS3",
+    icon: <SiCss3 />,
+    color: "#1572B6",
+    category: "frontend",
+    level: 90,
+    description: "Modern layouts with Flexbox and Grid",
+  },
+  {
+    name: "Redux",
+    icon: <SiRedux />,
+    color: "#764ABC",
+    category: "frontend",
+    level: 80,
+    description: "State management for complex applications",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss />,
+    color: "#38B2AC",
+    category: "frontend",
+    level: 90,
+    description: "Utility-first CSS framework expertise",
+  },
+  {
+    name: "Node.js",
+    icon: <SiNodedotjs />,
+    color: "#339933",
+    category: "backend",
+    level: 85,
+    description: "Server-side JavaScript runtime",
+  },
+  {
+    name: "Express",
+    icon: <SiExpress />,
+    color: "#000000",
+    category: "backend",
+    level: 85,
+    description: "Fast, unopinionated web framework",
+  },
+  {
+    name: "MongoDB",
+    icon: <SiMongodb />,
+    color: "#47A248",
+    category: "database",
+    level: 80,
+    description: "NoSQL database for flexible data storage",
+  },
+  {
+    name: "PostgreSQL",
+    icon: <SiPostgresql />,
+    color: "#336791",
+    category: "database",
+    level: 75,
+    description: "Robust relational database",
+  },
+  {
+    name: "Prisma",
+    icon: <SiPrisma />,
+    color: "#2D3748",
+    category: "database",
+    level: 80,
+    description: "Next-generation ORM for TypeScript",
+  },
+  {
+    name: "Git",
+    icon: <SiGit />,
+    color: "#F05032",
+    category: "tools",
+    level: 85,
+    description: "Version control and collaboration",
+  },
+  {
+    name: "GitHub",
+    icon: <SiGithub />,
+    color: "#181717",
+    category: "tools",
+    level: 85,
+    description: "Project hosting and collaboration",
+  },
+  {
+    name: "Docker",
+    icon: <SiDocker />,
+    color: "#2496ED",
+    category: "tools",
+    level: 75,
+    description: "Containerization and deployment",
+  },
+  {
+    name: "Vercel",
+    icon: <SiVercel />,
+    color: "#000000",
+    category: "cloud",
+    level: 80,
+    description: "Frontend deployment and hosting",
+  },
+];
+
+export const categories = [
+  { id: "all", name: "All" },
+  { id: "frontend", name: "Frontend" },
+  { id: "backend", name: "Backend" },
+  { id: "database", name: "Database" },
+  { id: "tools", name: "Tools" },
+  { id: "cloud", name: "Cloud" },
+];
