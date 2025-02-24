@@ -37,17 +37,13 @@ const GradientWord = ({ word }: { word: string }) => (
 const HomeHero = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollY } = useScroll();
-  const [isMounted, setIsMounted] = useState(false);
 
   const y = useTransform(scrollY, [0, 300], [0, 100]);
   const opacity = useTransform(scrollY, [0, 300], [1, 0]);
 
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
+  const words = ["MUKTAR", "AHMED"];
+  const roles = ["Full Stack Developer", "MERN Specialist"];
 
-  const words = ["Mukhtaar", "Ahmed"];
-  const roles = ["Full Stack Developer", "MERN Specialist", "UI/UX Enthusiast"];
   const [currentRole, setCurrentRole] = useState(0);
 
   useEffect(() => {
@@ -133,7 +129,14 @@ const HomeHero = () => {
               className="group relative overflow-hidden"
               asChild
             >
-              <Link href="#projects">
+              <button
+                onClick={() => {
+                  window.scrollTo({
+                    top: 2000,
+                    behavior: "smooth",
+                  });
+                }}
+              >
                 View Projects
                 <motion.span
                   className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/30 to-primary/0"
@@ -147,7 +150,7 @@ const HomeHero = () => {
                   }}
                 />
                 <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
-              </Link>
+              </button>
             </Button>
             <Button
               size="lg"
@@ -170,7 +173,7 @@ const HomeHero = () => {
           >
             {[
               { icon: Github, href: "https://github.com/MoDev40" },
-              { icon: Linkedin, href: "https://linkedin.com/in/yourprofile" },
+              { icon: Linkedin, href: "https://linkedin.com/in/Mukhtar Ahmed" },
             ].map(({ icon: Icon, href }, i) => (
               <Link
                 key={href}
