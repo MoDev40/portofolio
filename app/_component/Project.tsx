@@ -14,6 +14,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import Image from "next/image";
 
 interface Props {
   project: {
@@ -50,7 +51,9 @@ const Project: React.FC<Props> = ({ project }) => {
     >
       <Card className="group overflow-hidden h-full">
         <div className="relative overflow-hidden aspect-video">
-          <img
+          <Image
+            width={600}
+            height={300}
             src={project.image}
             alt={project.name}
             className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"

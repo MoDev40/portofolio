@@ -41,17 +41,24 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  metadataBase: new URL("https://portofolio-alpha-gray.vercel.app"),
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+    },
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://your-portfolio-url.com",
+    url: "https://portofolio-alpha-gray.vercel.app",
     title: "Mukhtaar Ahmed | Full Stack Developer",
     description:
       "Full Stack Developer specializing in MERN stack, modern web technologies, and UI/UX design. Building scalable and performant web applications.",
     siteName: "Mukhtaar Ahmed Portfolio",
     images: [
       {
-        url: "/og-image.jpg", // You'll need to add this image to your public folder
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Mukhtaar Ahmed - Full Stack Developer",
@@ -59,12 +66,10 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: "summary_large_image",
     title: "Mukhtaar Ahmed | Full Stack Developer",
     description:
       "Full Stack Developer specializing in MERN stack, modern web technologies, and UI/UX design.",
-    images: ["/og-image.jpg"], // Same image as OpenGraph
-    creator: "@Modev40", // Replace with your Twitter handle
+    creator: "@Modev40",
   },
   category: "Technology",
 };
