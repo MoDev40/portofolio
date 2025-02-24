@@ -66,16 +66,6 @@ export const metadata: Metadata = {
     images: ["/og-image.jpg"], // Same image as OpenGraph
     creator: "@Modev40", // Replace with your Twitter handle
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
-  },
-  verification: {
-    google: "your-google-site-verification", // Add your Google verification code
-    yandex: "your-yandex-verification", // Add if you use Yandex
-    yahoo: "your-yahoo-verification", // Add if you use Yahoo
-  },
   category: "Technology",
 };
 
@@ -86,6 +76,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+      </head>
       <body
         className={`${inter.className} bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300`}
       >
