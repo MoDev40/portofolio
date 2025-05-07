@@ -13,7 +13,7 @@ const ProjectsSkeleton = () => (
           <div
             key={n}
             className="bg-white dark:bg-gray-800 rounded-xl h-96 shadow-lg"
-          ></div>
+          />
         ))}
       </div>
     </div>

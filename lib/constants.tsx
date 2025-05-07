@@ -16,13 +16,15 @@ import {
   SiCss3,
   SiGithub,
   SiVercel,
+  SiNetlify,
+  SiRender,
 } from "react-icons/si";
 
 export interface Skill {
   name: string;
   icon: React.ReactNode;
   color: string;
-  category: "frontend" | "backend" | "database" | "tools" | "cloud";
+  category: "frontend" | "backend" | "database" | "tools" | "cloud" | "orm";
   level: number;
   description: string;
 }
@@ -128,7 +130,7 @@ export const skills: Skill[] = [
     name: "Prisma",
     icon: <SiPrisma />,
     color: "#2D3748",
-    category: "database",
+    category: "orm",
     level: 80,
     description: "Next-generation ORM for TypeScript",
   },
@@ -164,6 +166,22 @@ export const skills: Skill[] = [
     level: 80,
     description: "Frontend deployment and hosting",
   },
+  {
+    name: "Netlify",
+    icon: <SiNetlify />,
+    color: "blue",
+    category: "cloud",
+    level: 80,
+    description: "Frontend deployment and hosting",
+  },
+  {
+    name: "Render",
+    icon: <SiRender />,
+    color: "#000000",
+    category: "cloud",
+    level: 80,
+    description: "Backend deployment and hosting",
+  },
 ];
 
 export const categories = [
@@ -173,4 +191,5 @@ export const categories = [
   { id: "database", name: "Database" },
   { id: "tools", name: "Tools" },
   { id: "cloud", name: "Cloud" },
+  { id: "orm", name: "Orm" },
 ];
