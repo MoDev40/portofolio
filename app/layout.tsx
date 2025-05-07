@@ -7,11 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Mukhtaar Ahmed | Full Stack Developer",
-    template: "%s | Mukhtaar Ahmed",
+    default: "Muktar Ahmed | Full Stack Developer",
+    template: "%s | Muktar Ahmed",
   },
   description:
-    "Full Stack Developer specializing in MERN stack, modern web technologies, and UI/UX design. Building scalable and performant web applications.",
+    "Full Stack Developer specializing in MERN stack, modern web technologies. Building scalable and performant web applications.",
   keywords: [
     "Full Stack Developer",
     "MERN Stack",
@@ -23,13 +23,12 @@ export const metadata: Metadata = {
     "JavaScript",
     "MongoDB",
     "Express",
-    "UI/UX Design",
-    "Mukhtaar Ahmed",
+    "Muktar Ahmed",
     "Software Engineer",
   ],
-  authors: [{ name: "Mukhtaar Ahmed" }],
-  creator: "Mukhtaar Ahmed",
-  publisher: "Mukhtaar Ahmed",
+  authors: [{ name: "Muktar Ahmed" }],
+  creator: "Muktar Ahmed",
+  publisher: "Muktar Ahmed",
   robots: {
     index: true,
     follow: true,
@@ -52,23 +51,23 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://portofolio-alpha-gray.vercel.app",
-    title: "Mukhtaar Ahmed | Full Stack Developer",
+    title: "Muktar Ahmed | Full Stack Developer",
     description:
-      "Full Stack Developer specializing in MERN stack, modern web technologies, and UI/UX design. Building scalable and performant web applications.",
-    siteName: "Mukhtaar Ahmed Portfolio",
+      "Full Stack Developer specializing in MERN stack, modern web technologies. Building scalable and performant web applications.",
+    siteName: "Muktar Ahmed Portfolio",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Mukhtaar Ahmed - Full Stack Developer",
+        alt: "Muktar Ahmed - Full Stack Developer",
       },
     ],
   },
   twitter: {
-    title: "Mukhtaar Ahmed | Full Stack Developer",
+    title: "Muktar Ahmed | Full Stack Developer",
     description:
-      "Full Stack Developer specializing in MERN stack, modern web technologies, and UI/UX design.",
+      "Full Stack Developer specializing in MERN stack, modern web technologies.",
     creator: "@Modev40",
   },
   category: "Technology",
