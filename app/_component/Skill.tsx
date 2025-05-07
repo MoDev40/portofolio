@@ -1,8 +1,8 @@
-import { motion, AnimatePresence, useInView } from "framer-motion";
+import { AnimatePresence, motion, useInView } from "framer-motion";
 
 import { Card, CardContent } from "@/components/ui/card";
-import { useRef, useState } from "react";
 import { Skill } from "@/lib/constants";
+import { useRef, useState } from "react";
 
 const SkillCard = ({ skill }: { skill: Skill }) => {
   const [isHovered, setIsHovered] = useState(false);

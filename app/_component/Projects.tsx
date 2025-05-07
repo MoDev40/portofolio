@@ -1,4 +1,3 @@
-"use client";
 import { useProjectStore } from "@/app/store/useProjectStore";
 import { AnimatePresence, motion } from "framer-motion";
 import React, { Suspense, useEffect, useState } from "react";

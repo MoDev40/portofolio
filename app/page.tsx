@@ -7,13 +7,13 @@ import Skills from "./_component/Skills";
 
 const page = () => {
   return (
-    <div className="space-y-4">
+    <>
       <Header />
       <HomeHero />
       <Skills />
       <Projects />
       <Footer />
-    </div>
+    </>
   );
 };
 

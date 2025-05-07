@@ -1,7 +1,6 @@
-"use client";
-import { motion, useScroll, useTransform } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail, ChevronDown } from "lucide-react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { ArrowDown, ChevronDown, Github, Linkedin, Mail } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 

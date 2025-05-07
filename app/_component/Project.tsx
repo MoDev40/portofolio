@@ -1,9 +1,4 @@
-"use client";
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
-import { Github, Globe, Star, Calendar } from "lucide-react";
-import { format } from "date-fns";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -13,8 +8,12 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { format } from "date-fns";
+import { motion } from "framer-motion";
+import { Calendar, Github, Globe, Star } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
 
 interface Props {
   project: {
