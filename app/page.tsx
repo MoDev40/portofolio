@@ -1,9 +1,9 @@
 "use client";
-import Footer from "./_component/Footer";
-import Header from "./_component/Header";
-import HomeHero from "./_component/HomeHero";
-import Projects from "./_component/Projects";
-import Skills from "./_component/Skills";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import HomeHero from "../components/HomeHero";
+import Projects from "../components/Projects";
+import Skills from "../components/Skills";
 
 const page = () => {
   return (
